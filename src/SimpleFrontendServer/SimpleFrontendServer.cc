@@ -45,7 +45,7 @@ void SimpleFrontendServer::RegisterRoutes(uWS::App& app) {
     app.put("/api/database/snippet", [&](auto res, auto req) { HandleSetObject("snippet", res, req); });
     app.del("/api/database/snippet", [&](auto res, auto req) { HandleClearObject("snippet", res, req); });
     app.get("/config", [&](auto res, auto req) { HandleGetConfig(res, req); });
-    app.get("/api/scripting", [&](auto res, auto req) { HandleScriptingRequest(res, req); });
+    app.get("/api/scripting/*", [&](auto res, auto req) { HandleScriptingRequest(res, req); });
     // Static routes for all other files
     app.get("/*", [&](Res* res, Req* req) { HandleStaticRequest(res, req); });
 }
