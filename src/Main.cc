@@ -159,6 +159,9 @@ int main(int argc, char* argv[]) {
                     spdlog::warn("Failed to host the CARTA frontend. Please specify a custom location using the frontend_folder argument.");
                 }
             }
+        } else {
+            http_server = std::make_unique<SimpleFrontendServer>("", settings.user_directory, auth_token, settings.read_only_mode);
+            http_server->RegisterRoutes(session_manager->App());
         }
 
         int port(-1);

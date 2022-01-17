@@ -59,6 +59,7 @@ private:
 
     void HandleStaticRequest(Res* res, Req* req);
     void HandleGetConfig(Res* res, Req* req);
+    void HandleScriptingRequest(Res* res, Req* req);
     void HandleGetPreferences(Res* res, Req* req);
     void HandleSetPreferences(Res* res, Req* req);
     void HandleClearPreferences(Res* res, Req* req);

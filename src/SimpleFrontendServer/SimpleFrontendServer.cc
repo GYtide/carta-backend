@@ -45,7 +45,7 @@ void SimpleFrontendServer::RegisterRoutes(uWS::App& app) {
     app.put("/api/database/snippet", [&](auto res, auto req) { HandleSetObject("snippet", res, req); });
     app.del("/api/database/snippet", [&](auto res, auto req) { HandleClearObject("snippet", res, req); });
     app.get("/config", [&](auto res, auto req) { HandleGetConfig(res, req); });
-
+    app.get("/api/scripting", [&](auto res, auto req) { HandleScriptingRequest(res, req); });
     // Static routes for all other files
     app.get("/*", [&](Res* res, Req* req) { HandleStaticRequest(res, req); });
 }
@@ -54,6 +54,20 @@ void SimpleFrontendServer::HandleGetConfig(Res* res, Req* _req) {
     json runtime_config = {{"apiAddress", "/api"}};
     res->writeHeader("Content-Type", "application/json");
     res->writeStatus(HTTP_200)->end(runtime_config.dump());
+}
+
+void SimpleFrontendServer::HandleScriptingRequest(Res* res, Req* req) {
+    if (!IsAuthenticated(req)) {
+        res->writeStatus(HTTP_403)->end();
+        return;
+    }
+    AddNoCacheHeaders(res);
+
+    // Just a simple JSON dummy response
+    res->writeHeader("Content-Type", "application/json");
+    json dummy_response;
+    dummy_response["success"] = false;
+    res->writeStatus(HTTP_200)->end(dummy_response.dump(4));
 }
 
 void SimpleFrontendServer::HandleStaticRequest(Res* res, Req* req) {
