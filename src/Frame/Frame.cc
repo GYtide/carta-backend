@@ -1780,9 +1780,15 @@ void Frame::SaveFile(const std::string& root_folder, const CARTA::SaveFile& save
     }
 
     // Try to save file from loader (for entire LEL image in CASA format only)
-    if (!region && _loader->SaveFile(output_file_type, output_filename.string(), message)) {
-        save_file_ack.set_success(true);
-        return;
+    if (!region) {
+        try {
+            if (_loader->SaveFile(output_file_type, output_filename.string(), message)) {
+                save_file_ack.set_success(true);
+                return;
+            }
+        } catch (const casacore::AipsError& err) {
+            spdlog::info("Save image expression returned error: {}", err.getMesg());
+        }
     }
 
     // Begin with entire image

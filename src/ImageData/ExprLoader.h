@@ -66,11 +66,9 @@ void ExprLoader::OpenFile(const std::string& /*hdu*/) {
 
 bool ExprLoader::SaveFile(const CARTA::FileType type, const std::string& output_filename, std::string& message) {
     // Save image to disk if CASA file type requested and image was created from LEL expression
-    bool success(false);
-
     if (type != CARTA::FileType::CASA) {
         message = "Cannot save image type in format requested.";
-        return success;
+        return false;
     }
 
     if (!_image) {
@@ -78,14 +76,8 @@ bool ExprLoader::SaveFile(const CARTA::FileType type, const std::string& output_
     }
 
     casacore::ImageExpr<float>* im = dynamic_cast<casacore::ImageExpr<float>*>(_image.get());
-    try {
-        im->save(output_filename);
-        success = true;
-    } catch (const casacore::AipsError& err) {
-        message = err.getMesg();
-    }
-
-    return success;
+    im->save(output_filename);
+    return true;
 }
 
 } // namespace carta
