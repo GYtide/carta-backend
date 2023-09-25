@@ -1,0 +1,10 @@
+<map id="carta::Session::OnSetRegion" name="carta::Session::OnSetRegion">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,211,98"/>
+<area shape="rect" id="node2" href="$classcarta_1_1ThreadManager.html#a5a2489e2d7dfb13701cda9077f3c1db7" title=" " alt="" coords="271,5,437,47"/>
+<area shape="rect" id="node3" href="$classcarta_1_1Session.html#af5f45b72e3fb7d4ad6fbf32fcc9da912" title=" " alt="" coords="259,71,449,98"/>
+<area shape="rect" id="node8" href="$classMessage.html#a75d7d86b23309ae2a94359dc64e923a0" title=" " alt="" coords="265,122,443,149"/>
+<area shape="rect" id="node4" href="$namespacecarta_1_1logger.html#ab9e339746ee51ea21696ab43b50841d5" title=" " alt="" coords="497,13,728,39"/>
+<area shape="rect" id="node6" href="$classcarta_1_1concurrent__queue.html#ab1a11795f017e1c7dd870fce5da5ede1" title=" " alt="" coords="523,64,702,105"/>
+<area shape="rect" id="node7" href="$classcarta_1_1concurrent__queue.html#a44dc990ae7a71921648cad573058357d" title=" " alt="" coords="523,129,702,171"/>
+<area shape="rect" id="node5" href="$namespacecarta_1_1logger.html#a23c9bf75209165cf69eb8d50f64b81b4" title=" " alt="" coords="776,5,931,47"/>
+</map>
