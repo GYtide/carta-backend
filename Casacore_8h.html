@@ -1,12 +1,14 @@
+<!-- HTML header for doxygen 1.9.5-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CARTA Backend: Casacore.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" href="cartaviewer.png" type="image/png" />
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -24,14 +26,31 @@
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr style="height: 56px;">
+ <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="cartaviewer.png"/></td>
-  <td id="projectalign" style="padding-left: 0.5em;">
+  <td id="projectalign">
    <div id="projectname">CARTA Backend
    </div>
    <div id="projectbrief">The backend component of CARTA</div>
   </td>
  </tr>
+   <!--BEGIN FULL_SIDEBAR-->
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td></tr>
+   <!--END FULL_SIDEBAR-->
  </tbody>
 </table>
 </div>
@@ -112,8 +131,8 @@ Functions</h2></td></tr>
 <tr class="separator:aa05a1fe4e2176aee249351f3e2544441"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa743c537861c278f5c5620fa996f8153"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#aa743c537861c278f5c5620fa996f8153">IsSubdirectory</a> (std::string folder, std::string top_folder)</td></tr>
 <tr class="separator:aa743c537861c278f5c5620fa996f8153"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2490e15d7422f50140156a197a8bd2f5"><td class="memItemLeft" align="right" valign="top">casacore::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#a2490e15d7422f50140156a197a8bd2f5">GetResolvedFilename</a> (const std::string &amp;root_dir, const std::string &amp;directory, const std::string &amp;file)</td></tr>
-<tr class="separator:a2490e15d7422f50140156a197a8bd2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad560f4fdd266b9e1503ae3f24a60aa52"><td class="memItemLeft" align="right" valign="top">casacore::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#ad560f4fdd266b9e1503ae3f24a60aa52">GetResolvedFilename</a> (const std::string &amp;root_dir, const std::string &amp;directory, const std::string &amp;file, std::string &amp;message)</td></tr>
+<tr class="separator:ad560f4fdd266b9e1503ae3f24a60aa52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f2e1b7b1fdc56656757ae21fa22be67"><td class="memItemLeft" align="right" valign="top">casacore::ImageOpener::ImageTypes&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#a7f2e1b7b1fdc56656757ae21fa22be67">CasacoreImageType</a> (const std::string &amp;filename)</td></tr>
 <tr class="separator:a7f2e1b7b1fdc56656757ae21fa22be67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2710acccf40d0db8b686e21bc111cc56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#a2710acccf40d0db8b686e21bc111cc56">GetSpectralCoordPreferences</a> (casacore::ImageInterface&lt; float &gt; *image, bool &amp;prefer_velocity, bool &amp;optical_velocity, bool &amp;prefer_wavelength, bool &amp;air_wavelength)</td></tr>
@@ -224,8 +243,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a2490e15d7422f50140156a197a8bd2f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2490e15d7422f50140156a197a8bd2f5">&#9670;&nbsp;</a></span>GetResolvedFilename()</h2>
+<a id="ad560f4fdd266b9e1503ae3f24a60aa52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad560f4fdd266b9e1503ae3f24a60aa52">&#9670;&nbsp;</a></span>GetResolvedFilename()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246,7 +265,13 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>file</em>&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>message</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

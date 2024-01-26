@@ -1,12 +1,14 @@
+<!-- HTML header for doxygen 1.9.5-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CARTA Backend: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" href="cartaviewer.png" type="image/png" />
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -24,14 +26,31 @@
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr style="height: 56px;">
+ <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="cartaviewer.png"/></td>
-  <td id="projectalign" style="padding-left: 0.5em;">
+  <td id="projectalign">
    <div id="projectname">CARTA Backend
    </div>
    <div id="projectbrief">The backend component of CARTA</div>
   </td>
  </tr>
+   <!--BEGIN FULL_SIDEBAR-->
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td></tr>
+   <!--END FULL_SIDEBAR-->
  </tbody>
 </table>
 </div>
@@ -110,7 +129,7 @@ $(document).ready(function(){initNavTree('classcarta_1_1ImageFitter.html',''); i
   <tr class="even"><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html#aee69676eed847c984fd93ff129aece31">_unit</a></td><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html">carta::ImageFitter</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html#adb41334cf11084df588a1a9752c4df29">CalculateErrors</a>()</td><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html">carta::ImageFitter</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html#a5824b306b9f2af74b8c26a60f5bd95d5">CalculateImageData</a>(const gsl_vector *residual)</td><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html">carta::ImageFitter</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html#a85fff0ddc5414112e3cebbcae80b739b">CalculateNanNum</a>()</td><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html">carta::ImageFitter</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html#aaffd05e392d76e77c31a087af5608ab9">CalculateNanNumAndStd</a>()</td><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html">carta::ImageFitter</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html#ac84e37d5ca28378c500f18c6a4d9be1b">Callback</a>(const size_t iter, void *params, const gsl_multifit_nlinear_workspace *w)</td><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html">carta::ImageFitter</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">static</span></td></tr>
   <tr><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html#aab6682d3f70cacb34af30da27dee81b4">ErrorHandler</a>(const char *reason, const char *file, int line, int gsl_errno)</td><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html">carta::ImageFitter</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html#aed4497f70e14e441c9e33950f8f9ab44">FitImage</a>(size_t width, size_t height, float *image, double beam_size, string unit, const std::vector&lt; CARTA::GaussianComponent &gt; &amp;initial_values, const std::vector&lt; bool &gt; &amp;fixed_params, double background_offset, CARTA::FittingSolverType solver, bool create_model_image, bool create_residual_image, CARTA::FittingResponse &amp;fitting_response, GeneratorProgressCallback progress_callback, size_t offset_x=0, size_t offset_y=0)</td><td class="entry"><a class="el" href="classcarta_1_1ImageFitter.html">carta::ImageFitter</a></td><td class="entry"></td></tr>

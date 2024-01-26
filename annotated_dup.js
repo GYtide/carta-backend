@@ -6,6 +6,7 @@ var annotated_dup =
         [ "RegionStatsId", "structcarta_1_1FileInfo_1_1RegionStatsId.html", "structcarta_1_1FileInfo_1_1RegionStatsId" ],
         [ "RegionSpectralStats", "structcarta_1_1FileInfo_1_1RegionSpectralStats.html", "structcarta_1_1FileInfo_1_1RegionSpectralStats" ]
       ] ],
+      [ "LoaderCache", "classcarta_1_1LoaderCache.html", "classcarta_1_1LoaderCache" ],
       [ "ConfigId", "structcarta_1_1ConfigId.html", "structcarta_1_1ConfigId" ],
       [ "ConfigIdHash", "structcarta_1_1ConfigIdHash.html", "structcarta_1_1ConfigIdHash" ],
       [ "CacheId", "structcarta_1_1CacheId.html", "structcarta_1_1CacheId" ],
@@ -66,6 +67,7 @@ var annotated_dup =
       [ "BasicStats", "structcarta_1_1BasicStats.html", "structcarta_1_1BasicStats" ],
       [ "BasicStatsCalculator", "classcarta_1_1BasicStatsCalculator.html", "classcarta_1_1BasicStatsCalculator" ],
       [ "Histogram", "classcarta_1_1Histogram.html", "classcarta_1_1Histogram" ],
+      [ "CartaLogSink", "classcarta_1_1CartaLogSink.html", "classcarta_1_1CartaLogSink" ],
       [ "ProgramSettings", "structcarta_1_1ProgramSettings.html", "structcarta_1_1ProgramSettings" ],
       [ "WebBrowser", "classcarta_1_1WebBrowser.html", "classcarta_1_1WebBrowser" ],
       [ "CrtfImportExport", "classcarta_1_1CrtfImportExport.html", "classcarta_1_1CrtfImportExport" ],
@@ -87,7 +89,6 @@ var annotated_dup =
       [ "SpectralProfileTask", "classcarta_1_1SpectralProfileTask.html", "classcarta_1_1SpectralProfileTask" ],
       [ "PvPreviewUpdateTask", "classcarta_1_1PvPreviewUpdateTask.html", "classcarta_1_1PvPreviewUpdateTask" ],
       [ "PerSocketData", "structcarta_1_1PerSocketData.html", "structcarta_1_1PerSocketData" ],
-      [ "LoaderCache", "classcarta_1_1LoaderCache.html", "classcarta_1_1LoaderCache" ],
       [ "Session", "classcarta_1_1Session.html", "classcarta_1_1Session" ],
       [ "SessionContext", "classcarta_1_1SessionContext.html", "classcarta_1_1SessionContext" ],
       [ "SessionManager", "classcarta_1_1SessionManager.html", "classcarta_1_1SessionManager" ],

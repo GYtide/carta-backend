@@ -1,12 +1,14 @@
+<!-- HTML header for doxygen 1.9.5-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CARTA Backend: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" href="cartaviewer.png" type="image/png" />
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -24,14 +26,31 @@
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr style="height: 56px;">
+ <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="cartaviewer.png"/></td>
-  <td id="projectalign" style="padding-left: 0.5em;">
+  <td id="projectalign">
    <div id="projectname">CARTA Backend
    </div>
    <div id="projectbrief">The backend component of CARTA</div>
   </td>
  </tr>
+   <!--BEGIN FULL_SIDEBAR-->
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td></tr>
+   <!--END FULL_SIDEBAR-->
  </tbody>
 </table>
 </div>
@@ -125,8 +144,8 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 , <a class="el" href="classcarta_1_1MomentGenerator.html#a72ed0de83810cde08599ca4af6f857ea">carta::MomentGenerator</a>
 , <a class="el" href="classcarta_1_1RegionHandler.html#a18c5dbca7dd3627e96767d039a80009d">carta::RegionHandler</a>
 </li>
-<li>CalculateNanNum()
-: <a class="el" href="classcarta_1_1ImageFitter.html#a85fff0ddc5414112e3cebbcae80b739b">carta::ImageFitter</a>
+<li>CalculateNanNumAndStd()
+: <a class="el" href="classcarta_1_1ImageFitter.html#aaffd05e392d76e77c31a087af5608ab9">carta::ImageFitter</a>
 </li>
 <li>CalculatePa()
 : <a class="el" href="classcarta_1_1VectorField.html#a8052152add4b017199530f668be73159">carta::VectorField</a>
@@ -183,8 +202,11 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 <li>CartaHdf5Image()
 : <a class="el" href="classcarta_1_1CartaHdf5Image.html#ae1308aff32b5f1a90989ca6fb1e27cbc">carta::CartaHdf5Image</a>
 </li>
+<li>CartaLogSink()
+: <a class="el" href="classcarta_1_1CartaLogSink.html#aacb2dbbe01b50733d6e88395b92410f7">carta::CartaLogSink</a>
+</li>
 <li>CartaMiriadImage()
-: <a class="el" href="classcarta_1_1CartaMiriadImage.html#a6689d45b0ac4183171a9cfcb7f930838">carta::CartaMiriadImage</a>
+: <a class="el" href="classcarta_1_1CartaMiriadImage.html#afd46ec5c20e1ab73c44af118f0c6fac6">carta::CartaMiriadImage</a>
 </li>
 <li>CasaLoader()
 : <a class="el" href="classcarta_1_1CasaLoader.html#ae2b3f45a91849adb67ec0fadf4cd7139">carta::CasaLoader</a>
@@ -315,7 +337,7 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 : <a class="el" href="classcarta_1_1TableView.html#addd9c7cf7a1c17bb91788ba85f34769e">carta::TableView</a>
 </li>
 <li>CombineStokes()
-: <a class="el" href="classcarta_1_1RegionHandler.html#ae0a961eac00f2fa71ffe76a7c4c19488">carta::RegionHandler</a>
+: <a class="el" href="classcarta_1_1RegionHandler.html#a63047c5d563b8fb75ec430d47833ec11">carta::RegionHandler</a>
 </li>
 <li>command_line_settings
 : <a class="el" href="structcarta_1_1ProgramSettings.html#a78c341ba61be92463475a46e15544913">carta::ProgramSettings</a>
@@ -366,7 +388,7 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 : <a class="el" href="classcarta_1_1concurrent__queue.html#a96518f3339a904ffa60edb0a800de392">carta::concurrent_queue&lt; T &gt;</a>
 </li>
 <li>ConfigId()
-: <a class="el" href="structcarta_1_1ConfigId.html#a63c70e817bae42ef397d8e1fd9a891eb">carta::ConfigId</a>
+: <a class="el" href="structcarta_1_1ConfigId.html#a7886cdcdbf53fc26e2f7b180cb55f6ab">carta::ConfigId</a>
 </li>
 <li>configs
 : <a class="el" href="structcarta_1_1RegionHistogramConfig.html#ad8ed1b8fb32ff14b4f2720d7d78b358c">carta::RegionHistogramConfig</a>

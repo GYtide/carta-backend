@@ -16,6 +16,10 @@ var files_dup =
     [ "CartaHdf5Image.h", "CartaHdf5Image_8h.html", [
       [ "CartaHdf5Image", "classcarta_1_1CartaHdf5Image.html", "classcarta_1_1CartaHdf5Image" ]
     ] ],
+    [ "CartaLogSink.cc", "CartaLogSink_8cc.html", null ],
+    [ "CartaLogSink.h", "CartaLogSink_8h.html", [
+      [ "CartaLogSink", "classcarta_1_1CartaLogSink.html", "classcarta_1_1CartaLogSink" ]
+    ] ],
     [ "CartaMiriadImage.cc", "CartaMiriadImage_8cc.html", null ],
     [ "CartaMiriadImage.h", "CartaMiriadImage_8h.html", [
       [ "CartaMiriadImage", "classcarta_1_1CartaMiriadImage.html", "classcarta_1_1CartaMiriadImage" ]
@@ -138,6 +142,10 @@ var files_dup =
     [ "ListProgressReporter.cc", "ListProgressReporter_8cc.html", null ],
     [ "ListProgressReporter.h", "ListProgressReporter_8h.html", [
       [ "ListProgressReporter", "classcarta_1_1ListProgressReporter.html", "classcarta_1_1ListProgressReporter" ]
+    ] ],
+    [ "LoaderCache.cc", "LoaderCache_8cc.html", null ],
+    [ "LoaderCache.h", "LoaderCache_8h.html", [
+      [ "LoaderCache", "classcarta_1_1LoaderCache.html", "classcarta_1_1LoaderCache" ]
     ] ],
     [ "Logger.cc", "Logger_8cc.html", "Logger_8cc" ],
     [ "Logger.h", "Logger_8h.html", "Logger_8h" ],

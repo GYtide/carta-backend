@@ -8,6 +8,7 @@ var namespacecarta =
       [ "LogReceivedEventType", "namespacecarta_1_1logger.html#a579b36ca7fa898b7052001d151fc34cd", null ],
       [ "LogSentEventType", "namespacecarta_1_1logger.html#ab9e339746ee51ea21696ab43b50841d5", null ]
     ] ],
+    [ "LoaderCache", "classcarta_1_1LoaderCache.html", "classcarta_1_1LoaderCache" ],
     [ "ConfigId", "structcarta_1_1ConfigId.html", "structcarta_1_1ConfigId" ],
     [ "ConfigIdHash", "structcarta_1_1ConfigIdHash.html", "structcarta_1_1ConfigIdHash" ],
     [ "CacheId", "structcarta_1_1CacheId.html", "structcarta_1_1CacheId" ],
@@ -68,6 +69,7 @@ var namespacecarta =
     [ "BasicStats", "structcarta_1_1BasicStats.html", "structcarta_1_1BasicStats" ],
     [ "BasicStatsCalculator", "classcarta_1_1BasicStatsCalculator.html", "classcarta_1_1BasicStatsCalculator" ],
     [ "Histogram", "classcarta_1_1Histogram.html", "classcarta_1_1Histogram" ],
+    [ "CartaLogSink", "classcarta_1_1CartaLogSink.html", "classcarta_1_1CartaLogSink" ],
     [ "ProgramSettings", "structcarta_1_1ProgramSettings.html", "structcarta_1_1ProgramSettings" ],
     [ "WebBrowser", "classcarta_1_1WebBrowser.html", "classcarta_1_1WebBrowser" ],
     [ "CrtfImportExport", "classcarta_1_1CrtfImportExport.html", "classcarta_1_1CrtfImportExport" ],
@@ -89,7 +91,6 @@ var namespacecarta =
     [ "SpectralProfileTask", "classcarta_1_1SpectralProfileTask.html", "classcarta_1_1SpectralProfileTask" ],
     [ "PvPreviewUpdateTask", "classcarta_1_1PvPreviewUpdateTask.html", "classcarta_1_1PvPreviewUpdateTask" ],
     [ "PerSocketData", "structcarta_1_1PerSocketData.html", "structcarta_1_1PerSocketData" ],
-    [ "LoaderCache", "classcarta_1_1LoaderCache.html", "classcarta_1_1LoaderCache" ],
     [ "Session", "classcarta_1_1Session.html", "classcarta_1_1Session" ],
     [ "SessionContext", "classcarta_1_1SessionContext.html", "classcarta_1_1SessionContext" ],
     [ "SessionManager", "classcarta_1_1SessionManager.html", "classcarta_1_1SessionManager" ],
@@ -159,6 +160,10 @@ var namespacecarta =
     [ "ComputedStokesName", "namespacecarta.html#a13be33c4c61fc2acef8d41a09410fd9e", null ],
     [ "FileTypeString", "namespacecarta.html#aa00c6e2a51560be72e87cad1c67f7d2a", null ],
     [ "ICD_VERSION", "namespacecarta.html#ab956cf731110ba23b135cca4982ce525", null ],
+    [ "LAYOUT", "namespacecarta.html#a1507d2cefdaa01d5695e4fb962c01281", null ],
     [ "MimeTypes", "namespacecarta.html#a55d0e4a09efee3dc6cb3aa79af60bbbb", null ],
-    [ "success_string", "namespacecarta.html#a4262964fd29ac905d328d8d61295ebfc", null ]
+    [ "SCHEMA_URLS", "namespacecarta.html#a6ae770367fed7f2b28315cd997b3dae1", null ],
+    [ "SNIPPET", "namespacecarta.html#a276b31a07a77cce605e901c674d66356", null ],
+    [ "SUCCESS_STRING", "namespacecarta.html#a0adeabfb442db034ca83092b1a2ee1e4", null ],
+    [ "WORKSPACE", "namespacecarta.html#af9830509695cfe9bd0ed310dec7033be", null ]
 ];
