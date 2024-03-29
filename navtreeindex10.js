@@ -1,8 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"structcarta_1_1PreviewCutParameters.html#acac74ea0c62be2241afaf7b9584a7fa4":[3,0,0,56,7],
-"structcarta_1_1PreviewCutParameters.html#acd3a13f48a5959a71e5924c61b591b2d":[3,0,0,56,12],
-"structcarta_1_1PreviewCutParameters.html#adda0b79bd8f392f8f1603b9bf944d6e9":[3,0,0,56,11],
 "structcarta_1_1PreviewCutParameters.html#afdb21764c8a7a6a258387480ea2ada5e":[3,0,0,56,3],
 "structcarta_1_1ProgramSettings.html":[3,0,0,63],
 "structcarta_1_1ProgramSettings.html#a050edf157d560b52356b2b36af7ab69b":[3,0,0,63,7],
