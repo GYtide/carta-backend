@@ -73,17 +73,17 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"AnimationObject_8h.html",
-"Logger_8h.html#a7ae94642fa899f39b026522f0b4359ce",
-"classcarta_1_1AnimationObject.html#a4bc04ff332f3e18615a47b90fc57fae0",
-"classcarta_1_1CrtfImportExport.html#a7f76d93d28588ccf3fee2337902077a8",
-"classcarta_1_1Frame.html#a0253f61585e2ddbf5c0957d35ddbbf90",
-"classcarta_1_1Image2DConvolver.html#a9037bd39cfa7f4350f45bf61fb622d55",
-"classcarta_1_1Region.html#a1a2fb79566c14c07764aaf101398ac42",
-"classcarta_1_1Session.html#a6e3719e8d244e28cdf5a80725b0727ff",
-"classcarta_1_1TileCache.html#ac93cc128ac47219904ac19d9de4b1928",
-"namespacecarta.html#ae89ff7b7585126d14f73afe321bdc72e",
-"structcarta_1_1PreviewCutParameters.html#afdb21764c8a7a6a258387480ea2ada5e"
+"",
+"Logger_8h.html#a579b36ca7fa898b7052001d151fc34cd",
+"classMessage.html#afc2a3c83d6b506ed8b71e54dbce0f9ab",
+"classcarta_1_1CrtfImportExport.html#a1939e4595e8b66d378db75609a732fcb",
+"classcarta_1_1FitsHduList.html#abfd21506da39eeb612aaedd4475e81ea",
+"classcarta_1_1Image2DConvolver.html#a153605f0ef7a18a092f32c823d4e1921",
+"classcarta_1_1PvPreviewCut.html#a78238a66c48bd5376bf05d5ab8acdfac",
+"classcarta_1_1Session.html#a44b5161716cac5918d2060c568a8b7da",
+"classcarta_1_1TableView.html#addd9c7cf7a1c17bb91788ba85f34769e",
+"namespacecarta.html#a6e7de940705eaee735758c84974dc53b",
+"structcarta_1_1HistogramConfig.html#ae625a69e48d46ef7887b9ee10cc04d53"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
