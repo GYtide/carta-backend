@@ -25,13 +25,19 @@
 var NAVTREE =
 [
   [ "CARTA Backend", "index.html", [
-    [ "Welcome to the CARTA backend documentation", "index.html", [
-      [ "Documentation for other CARTA components", "index.html#autotoc_md3", null ]
+    [ "Welcome to the CARTA backend documentation", "index.html", "index" ],
+    [ "Developer FAQ and tips", "md_docs_2static_2faq.html", [
+      [ "Building and running unit tests", "md_docs_2static_2faq.html#autotoc_md0", null ],
+      [ "Building with ASAN flags", "md_docs_2static_2faq.html#autotoc_md1", null ],
+      [ "Checking and fixing code format", "md_docs_2static_2faq.html#autotoc_md2", null ]
     ] ],
-    [ "Developer FAQ and tips", "md_docs_static_faq.html", [
-      [ "Building and running unit tests", "md_docs_static_faq.html#autotoc_md0", null ],
-      [ "Building with ASAN flags", "md_docs_static_faq.html#autotoc_md1", null ],
-      [ "Checking and fixing code format", "md_docs_static_faq.html#autotoc_md2", null ]
+    [ "Release checklist", "md_docs_2static_2release.html", [
+      [ "Beta release", "md_docs_2static_2release.html#autotoc_md4", null ],
+      [ "After beta release", "md_docs_2static_2release.html#autotoc_md5", null ],
+      [ "Additional beta release", "md_docs_2static_2release.html#autotoc_md6", null ],
+      [ "Final release", "md_docs_2static_2release.html#autotoc_md7", null ],
+      [ "After final release", "md_docs_2static_2release.html#autotoc_md8", null ],
+      [ "Point release", "md_docs_2static_2release.html#autotoc_md9", null ]
     ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -55,7 +61,7 @@ var NAVTREE =
         [ "Typedefs", "functions_type.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
+        [ "Related Symbols", "functions_rela.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -73,17 +79,26 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"",
-"Logger_8h.html#a579b36ca7fa898b7052001d151fc34cd",
-"classMessage.html#afc2a3c83d6b506ed8b71e54dbce0f9ab",
-"classcarta_1_1CrtfImportExport.html#a1939e4595e8b66d378db75609a732fcb",
-"classcarta_1_1FitsHduList.html#abfd21506da39eeb612aaedd4475e81ea",
-"classcarta_1_1Image2DConvolver.html#a153605f0ef7a18a092f32c823d4e1921",
-"classcarta_1_1PvPreviewCut.html#a78238a66c48bd5376bf05d5ab8acdfac",
-"classcarta_1_1Session.html#a44b5161716cac5918d2060c568a8b7da",
-"classcarta_1_1TableView.html#addd9c7cf7a1c17bb91788ba85f34769e",
-"namespacecarta.html#a6e7de940705eaee735758c84974dc53b",
-"structcarta_1_1HistogramConfig.html#ae625a69e48d46ef7887b9ee10cc04d53"
+"AnimationObject_8h.html",
+"Logger_8h.html#a670c6a63d98e715c33a6063e6e0c7b0c",
+"classcarta_1_1AnimationObject.html#a2ffd37826371248ce878cc4b09915670",
+"classcarta_1_1CartaHdf5Image.html#ad302ddf5eb102e86a2b0100ee92f20cb",
+"classcarta_1_1CrtfImportExport.html#a343bb4dffd1a7f4646ed0efd7e1779c6",
+"classcarta_1_1FileExtInfoLoader.html#adb3998e3b3756d1ee8a2bb91f445c4d7",
+"classcarta_1_1FitsLoader.html#a45ca0ae718eb9c8d925e43371e8c9af8",
+"classcarta_1_1Frame.html#ae3ee51cc1bda05842764364c3f49db45",
+"classcarta_1_1Image2DConvolver.html#a3045ffb63b08a532e7b6145f49d8a92f",
+"classcarta_1_1MiriadLoader.html#a117a93473876245205b6c1128e839717",
+"classcarta_1_1PvPreviewCut.html#aad4e1676c16757527a8fc399210a0b7a",
+"classcarta_1_1RegionHandler.html#a5dcaa11ea35b7c7a129feab0737a0223",
+"classcarta_1_1Session.html#a45b9623e5dd0c0d54307ab148e8745aa",
+"classcarta_1_1SessionManager.html",
+"classcarta_1_1TableView.html#a4c0a426836a7dee8a06f76422adb000e",
+"classcarta_1_1queuing__rw__mutex__scoped.html#a9b00c36da22c7557c162cf9df811c1f0",
+"namespacemembers_vars.html",
+"structcarta_1_1FitData.html",
+"structcarta_1_1RegionHistogramConfig.html#ad8ed1b8fb32ff14b4f2720d7d78b358c",
+"structcarta_1_1VectorField_1_1CalcFpi.html#ae07f0d1b01bfc287548533884d34bfea"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
