@@ -110,9 +110,9 @@
 <!-- Node24 -->
 <g id="Node000024" class="node">
 <title>Node24</title>
-<g id="a_Node000024"><a xlink:href="classcarta_1_1Frame.html#a68a31253118f829703cbfb42e0c81257" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="530.5,-519.5 390.5,-519.5 390.5,-500.5 530.5,-500.5 530.5,-519.5"/>
-<text text-anchor="middle" x="460.5" y="-507.5" font-family="Helvetica,sans-Serif" font-size="10.00">carta::Frame::GetZMatrix</text>
+<g id="a_Node000024"><a xlink:href="classcarta_1_1Frame.html#a8a21dff2870c7af8fedf02365c4faa91" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="526,-519.5 395,-519.5 395,-500.5 526,-500.5 526,-519.5"/>
+<text text-anchor="middle" x="460.5" y="-507.5" font-family="Helvetica,sans-Serif" font-size="10.00">carta::Frame::GetZSlice</text>
 </a>
 </g>
 </g>
@@ -120,8 +120,8 @@
 <g id="edge37_Node000001_Node000024" class="edge">
 <title>Node1&#45;&gt;Node24</title>
 <g id="a_edge37_Node000001_Node000024"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M85.19,-387.78C101.72,-408.01 142.9,-454.28 189,-475 249.38,-502.13 324.48,-510.07 380.22,-511.68"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="380.32,-515.19 390.39,-511.92 380.48,-508.19 380.32,-515.19"/>
+<path fill="none" stroke="#63b8ff" d="M85.19,-387.78C101.72,-408.01 142.9,-454.28 189,-475 251.01,-502.86 328.54,-510.48 384.68,-511.8"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="384.85,-515.3 394.91,-511.98 384.97,-508.31 384.85,-515.3"/>
 </a>
 </g>
 </g>
@@ -282,7 +282,7 @@
 <!-- Node9 -->
 <g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_Node000009"><a xlink:href="structcarta_1_1StokesSource.html#a7cb4847ee609866b84ce3afa1624bb45" target="_top" xlink:title=" ">
+<g id="a_Node000009"><a xlink:href="structcarta_1_1StokesSource.html#a7cb4847ee609866b84ce3afa1624bb45" target="_top" xlink:title="Checks if this Stokes source represents an original image.">
 <polygon fill="white" stroke="#666666" points="1106.5,-597 993.5,-597 993.5,-567 1106.5,-567 1106.5,-597"/>
 <text text-anchor="start" x="1001.5" y="-585" font-family="Helvetica,sans-Serif" font-size="10.00">carta::StokesSource</text>
 <text text-anchor="middle" x="1050" y="-574" font-family="Helvetica,sans-Serif" font-size="10.00">::IsOriginalImage</text>
@@ -319,7 +319,7 @@
 <!-- Node10 -->
 <g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_Node000010"><a xlink:href="classcarta_1_1Stokes.html#a8f76c245d9e9a6f0bde70c48fda636a6" target="_top" xlink:title=" ">
+<g id="a_Node000010"><a xlink:href="classcarta_1_1Stokes.html#a8f76c245d9e9a6f0bde70c48fda636a6" target="_top" xlink:title="Determines if a given polarization type is a computed polarization.">
 <polygon fill="white" stroke="#666666" points="1306,-591.5 1162,-591.5 1162,-572.5 1306,-572.5 1306,-591.5"/>
 <text text-anchor="middle" x="1234" y="-579.5" font-family="Helvetica,sans-Serif" font-size="10.00">carta::Stokes::IsComputed</text>
 </a>
@@ -383,7 +383,7 @@
 <!-- Node15 -->
 <g id="Node000015" class="node">
 <title>Node15</title>
-<g id="a_Node000015"><a xlink:href="namespacecarta.html#a497f02167a001abee3a4c3aadaa3c837" target="_top" xlink:title=" ">
+<g id="a_Node000015"><a xlink:href="namespacecarta.html#a41bb4d4534de964f83271afdf638dfcb" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="707.5,-180.5 603.5,-180.5 603.5,-161.5 707.5,-161.5 707.5,-180.5"/>
 <text text-anchor="middle" x="655.5" y="-168.5" font-family="Helvetica,sans-Serif" font-size="10.00">carta::MakeKernel</text>
 </a>
@@ -401,7 +401,7 @@
 <!-- Node17 -->
 <g id="Node000017" class="node">
 <title>Node17</title>
-<g id="a_Node000017"><a xlink:href="namespacecarta.html#a14ef4865d709f274065adb74f068320e" target="_top" xlink:title=" ">
+<g id="a_Node000017"><a xlink:href="namespacecarta.html#a485f08e6c95ab33a0567541aa0bb0ea0" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="704,-256.5 607,-256.5 607,-237.5 704,-237.5 704,-256.5"/>
 <text text-anchor="middle" x="655.5" y="-244.5" font-family="Helvetica,sans-Serif" font-size="10.00">carta::RunKernel</text>
 </a>
@@ -600,8 +600,8 @@
 <g id="edge33_Node000024_Node000006" class="edge">
 <title>Node24&#45;&gt;Node6</title>
 <g id="a_edge33_Node000024_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M530.63,-510C541.93,-510 553.76,-510 565.46,-510"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="565.68,-513.5 575.68,-510 565.68,-506.5 565.68,-513.5"/>
+<path fill="none" stroke="#63b8ff" d="M526.03,-510C538.78,-510 552.37,-510 565.76,-510"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="565.94,-513.5 575.94,-510 565.94,-506.5 565.94,-513.5"/>
 </a>
 </g>
 </g>
@@ -719,7 +719,7 @@
 <!-- Node32 -->
 <g id="Node000032" class="node">
 <title>Node32</title>
-<g id="a_Node000032"><a xlink:href="namespacecarta.html#a7e1f615d908d735552aa446444b3fc72" target="_top" xlink:title=" ">
+<g id="a_Node000032"><a xlink:href="namespacecarta.html#aaae2c5eb4387c657d0d7e4edea59e63c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="705,-67.5 606,-67.5 606,-48.5 705,-48.5 705,-67.5"/>
 <text text-anchor="middle" x="655.5" y="-55.5" font-family="Helvetica,sans-Serif" font-size="10.00">carta::TraceLevel</text>
 </a>
@@ -737,7 +737,7 @@
 <!-- Node33 -->
 <g id="Node000033" class="node">
 <title>Node33</title>
-<g id="a_Node000033"><a xlink:href="namespacecarta.html#af7359c825e152777546c5e50b44b6e20" target="_top" xlink:title=" ">
+<g id="a_Node000033"><a xlink:href="namespacecarta.html#af0c260fb7b748c2ba281b5fd160f22cd" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="912.5,-67.5 796.5,-67.5 796.5,-48.5 912.5,-48.5 912.5,-67.5"/>
 <text text-anchor="middle" x="854.5" y="-55.5" font-family="Helvetica,sans-Serif" font-size="10.00">carta::TraceSegment</text>
 </a>

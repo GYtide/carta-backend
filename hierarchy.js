@@ -35,7 +35,16 @@ var hierarchy =
     [ "std::enable_shared_from_this", null, [
       [ "carta::TilePool", "structcarta_1_1TilePool.html", null ]
     ] ],
+    [ "carta::EnumClassHash", "structcarta_1_1EnumClassHash.html", null ],
+    [ "json_schema::error_handler", null, [
+      [ "carta::JsonCustomErrorHandler", "classcarta_1_1JsonCustomErrorHandler.html", null ]
+    ] ],
     [ "carta::EventHeader", "structcarta_1_1EventHeader.html", null ],
+    [ "std::exception", null, [
+      [ "std::runtime_error", null, [
+        [ "message_parsing_exception", "structmessage__parsing__exception.html", null ]
+      ] ]
+    ] ],
     [ "carta::FileExtInfoLoader", "classcarta_1_1FileExtInfoLoader.html", null ],
     [ "carta::FileInfoLoader", "classcarta_1_1FileInfoLoader.html", null ],
     [ "carta::FileListHandler", "classcarta_1_1FileListHandler.html", null ],
@@ -53,6 +62,7 @@ var hierarchy =
     [ "carta::FitsHduList", "classcarta_1_1FitsHduList.html", null ],
     [ "carta::FitStatus", "structcarta_1_1FitStatus.html", null ],
     [ "carta::Frame", "classcarta_1_1Frame.html", null ],
+    [ "carta::GaussianParams", "structcarta_1_1GaussianParams.html", null ],
     [ "carta::GeneratedImage", "structcarta_1_1GeneratedImage.html", null ],
     [ "std::hash< carta::TileCacheKey >", "structstd_1_1hash_3_01carta_1_1TileCacheKey_01_4.html", null ],
     [ "carta::Hdf5Attributes", "classcarta_1_1Hdf5Attributes.html", null ],
@@ -73,6 +83,8 @@ var hierarchy =
       [ "carta::Image2DConvolver< casacore::Float >", "classcarta_1_1Image2DConvolver.html", null ],
       [ "carta::Image2DConvolver< T >", "classcarta_1_1Image2DConvolver.html", null ]
     ] ],
+    [ "carta::InitialValueCalculator", "classcarta_1_1InitialValueCalculator.html", null ],
+    [ "carta::Json", "classcarta_1_1Json.html", null ],
     [ "carta::LineBoxRegions", "classcarta_1_1LineBoxRegions.html", null ],
     [ "carta::ListProgressReporter", "classcarta_1_1ListProgressReporter.html", null ],
     [ "carta::LoaderCache", "classcarta_1_1LoaderCache.html", null ],
@@ -87,15 +99,6 @@ var hierarchy =
       [ "carta::ImageMoments< casacore::Float >", "classcarta_1_1ImageMoments.html", null ],
       [ "carta::ImageMoments< T >", "classcarta_1_1ImageMoments.html", null ]
     ] ],
-    [ "carta::OnMessageTask", "classcarta_1_1OnMessageTask.html", [
-      [ "carta::AnimationTask", "classcarta_1_1AnimationTask.html", null ],
-      [ "carta::PvPreviewUpdateTask", "classcarta_1_1PvPreviewUpdateTask.html", null ],
-      [ "carta::RegionDataStreamsTask", "classcarta_1_1RegionDataStreamsTask.html", null ],
-      [ "carta::SetCursorTask", "classcarta_1_1SetCursorTask.html", null ],
-      [ "carta::SetImageChannelsTask", "classcarta_1_1SetImageChannelsTask.html", null ],
-      [ "carta::SpectralProfileTask", "classcarta_1_1SpectralProfileTask.html", null ],
-      [ "carta::StartAnimationTask", "classcarta_1_1StartAnimationTask.html", null ]
-    ] ],
     [ "carta::PerSocketData", "structcarta_1_1PerSocketData.html", null ],
     [ "PointXy", "structPointXy.html", null ],
     [ "carta::PolarizationCalculator", "classcarta_1_1PolarizationCalculator.html", null ],
@@ -109,16 +112,22 @@ var hierarchy =
     [ "carta::queuing_rw_mutex_scoped", "classcarta_1_1queuing__rw__mutex__scoped.html", null ],
     [ "carta::Region", "classcarta_1_1Region.html", null ],
     [ "carta::RegionConverter", "classcarta_1_1RegionConverter.html", null ],
+    [ "carta::RegionExporter", "classcarta_1_1RegionExporter.html", [
+      [ "carta::CrtfExporter", "classcarta_1_1CrtfExporter.html", null ],
+      [ "carta::Ds9Exporter", "classcarta_1_1Ds9Exporter.html", null ]
+    ] ],
     [ "carta::RegionHandler", "classcarta_1_1RegionHandler.html", null ],
+    [ "carta::RegionHistogram", "classcarta_1_1RegionHistogram.html", null ],
     [ "carta::RegionHistogramConfig", "structcarta_1_1RegionHistogramConfig.html", null ],
-    [ "carta::RegionImportExport", "classcarta_1_1RegionImportExport.html", [
-      [ "carta::CrtfImportExport", "classcarta_1_1CrtfImportExport.html", null ],
-      [ "carta::Ds9ImportExport", "classcarta_1_1Ds9ImportExport.html", null ]
+    [ "carta::RegionImporter", "classcarta_1_1RegionImporter.html", [
+      [ "carta::CrtfImporter", "classcarta_1_1CrtfImporter.html", null ],
+      [ "carta::Ds9Importer", "classcarta_1_1Ds9Importer.html", null ]
     ] ],
     [ "carta::RegionProperties", "structcarta_1_1RegionProperties.html", null ],
     [ "carta::RegionSpectralConfig", "structcarta_1_1RegionSpectralConfig.html", null ],
     [ "carta::FileInfo::RegionSpectralStats", "structcarta_1_1FileInfo_1_1RegionSpectralStats.html", null ],
     [ "carta::RegionState", "structcarta_1_1RegionState.html", null ],
+    [ "carta::RegionStatistics", "classcarta_1_1RegionStatistics.html", null ],
     [ "carta::RegionStatsConfig", "structcarta_1_1RegionStatsConfig.html", null ],
     [ "carta::FileInfo::RegionStatsId", "structcarta_1_1FileInfo_1_1RegionStatsId.html", null ],
     [ "carta::RequiredTiles", "structcarta_1_1RequiredTiles.html", null ],
@@ -139,6 +148,18 @@ var hierarchy =
     [ "carta::TableParam", "structcarta_1_1TableParam.html", null ],
     [ "carta::TableView", "classcarta_1_1TableView.html", null ],
     [ "carta::TableViewCache", "structcarta_1_1TableViewCache.html", null ],
+    [ "carta::Task", "classcarta_1_1Task.html", [
+      [ "carta::OnMessageTask", "classcarta_1_1OnMessageTask.html", [
+        [ "carta::AnimationTask", "classcarta_1_1AnimationTask.html", null ],
+        [ "carta::GeneralMessageTask< T >", "classcarta_1_1GeneralMessageTask.html", null ],
+        [ "carta::PvPreviewUpdateTask", "classcarta_1_1PvPreviewUpdateTask.html", null ],
+        [ "carta::RegionDataStreamsTask", "classcarta_1_1RegionDataStreamsTask.html", null ],
+        [ "carta::SetCursorTask", "classcarta_1_1SetCursorTask.html", null ],
+        [ "carta::SetImageChannelsTask", "classcarta_1_1SetImageChannelsTask.html", null ],
+        [ "carta::SpectralProfileTask", "classcarta_1_1SpectralProfileTask.html", null ],
+        [ "carta::StartAnimationTask", "classcarta_1_1StartAnimationTask.html", null ]
+      ] ]
+    ] ],
     [ "carta::ThreadManager", "classcarta_1_1ThreadManager.html", null ],
     [ "carta::VectorField::ThresholdCut", "structcarta_1_1VectorField_1_1ThresholdCut.html", null ],
     [ "carta::Tile", "structcarta_1_1Tile.html", null ],

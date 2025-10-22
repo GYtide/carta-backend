@@ -19,11 +19,11 @@ var searchData=
   ['bmin_16',['bmin',['../structcarta_1_1BeamInfo.html#ae05ace9f9754ef34c89bb41fcce6d87b',1,'carta::BeamInfo']]],
   ['bool_5fkeys_5fmap_17',['bool_keys_map',['../structcarta_1_1ProgramSettings.html#a2a55ad68cd6e236de43cee51bbc2f385',1,'carta::ProgramSettings']]],
   ['bottomedge_18',['BottomEdge',['../namespacecarta.html#aa535ebf1a5ce13ded3b0cb2ce60a2daca076615f5ef3b1465dbbc35e6920eb381',1,'carta']]],
-  ['bounds_19',['bounds',['../structcarta_1_1Bounds.html#a39658fa57fa5612d549b64079b756a9d',1,'carta::Bounds::Bounds(const CARTA::DoubleBounds &amp;bounds)'],['../structcarta_1_1Bounds.html#aab9626e93239d66bd1ac970d18733984',1,'carta::Bounds::Bounds(T min_, T max_)'],['../structcarta_1_1Bounds.html#a339f5710352716086aa262f4c91d9d55',1,'carta::Bounds::Bounds()'],['../structcarta_1_1HistogramConfig.html#adc9801fecde5d4a2b3385d60fab3d586',1,'carta::HistogramConfig::bounds'],['../structcarta_1_1Bounds.html',1,'carta::Bounds&lt; T &gt;']]],
+  ['bounds_19',['bounds',['../structcarta_1_1HistogramConfig.html#adc9801fecde5d4a2b3385d60fab3d586',1,'carta::HistogramConfig::bounds'],['../structcarta_1_1Bounds.html#a39658fa57fa5612d549b64079b756a9d',1,'carta::Bounds::Bounds(const CARTA::DoubleBounds &amp;bounds)'],['../structcarta_1_1Bounds.html#aab9626e93239d66bd1ac970d18733984',1,'carta::Bounds::Bounds(T min_, T max_)'],['../structcarta_1_1Bounds.html#a339f5710352716086aa262f4c91d9d55',1,'carta::Bounds::Bounds()'],['../structcarta_1_1Bounds.html',1,'carta::Bounds&lt; T &gt;']]],
   ['bounds_3c_20double_20_3e_20',['Bounds&lt; double &gt;',['../structcarta_1_1Bounds.html',1,'carta']]],
   ['bpa_21',['bpa',['../structcarta_1_1BeamInfo.html#aea0cdef8ea56122dfb6ef8037e749ac8',1,'carta::BeamInfo']]],
   ['browser_22',['browser',['../structcarta_1_1ProgramSettings.html#a09c0ed2f5a3eff7e84ca8e25ab58e373',1,'carta::ProgramSettings']]],
-  ['buildanimationobject_23',['BuildAnimationObject',['../classcarta_1_1Session.html#af35d01f76314dfa92b6cb9b63280210a',1,'carta::Session']]],
+  ['buildanimationobject_23',['BuildAnimationObject',['../classcarta_1_1Session.html#ab5e210a4e6fa850ee38cd4565fcd92f7',1,'carta::Session']]],
   ['building_20and_20running_20unit_20tests_24',['Building and running unit tests',['../md_docs_2static_2faq.html#autotoc_md0',1,'']]],
   ['building_20with_20asan_20flags_25',['Building with ASAN flags',['../md_docs_2static_2faq.html#autotoc_md1',1,'']]]
 ];

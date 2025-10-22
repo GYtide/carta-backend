@@ -102,7 +102,7 @@ var sectionId = 'dynsection-59';
 <!-- Node19 -->
 <g id="Node000019" class="node">
 <title>Node19</title>
-<g id="a_Node000019"><a xlink:href="classcarta_1_1Stokes.html#a8f76c245d9e9a6f0bde70c48fda636a6" target="_top" xlink:title=" ">
+<g id="a_Node000019"><a xlink:href="classcarta_1_1Stokes.html#a8f76c245d9e9a6f0bde70c48fda636a6" target="_top" xlink:title="Determines if a given polarization type is a computed polarization.">
 <polygon fill="white" stroke="#666666" points="1328,-78 1184,-78 1184,-59 1328,-59 1328,-78"/>
 <text text-anchor="middle" x="1256" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">carta::Stokes::IsComputed</text>
 </a>
@@ -255,9 +255,9 @@ var sectionId = 'dynsection-59';
 <!-- Node14 -->
 <g id="Node000014" class="node">
 <title>Node14</title>
-<g id="a_Node000014"><a xlink:href="classcarta_1_1Frame.html#a68a31253118f829703cbfb42e0c81257" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="552,-130 412,-130 412,-111 552,-111 552,-130"/>
-<text text-anchor="middle" x="482" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">carta::Frame::GetZMatrix</text>
+<g id="a_Node000014"><a xlink:href="classcarta_1_1Frame.html#a8a21dff2870c7af8fedf02365c4faa91" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="547.5,-130 416.5,-130 416.5,-111 547.5,-111 547.5,-130"/>
+<text text-anchor="middle" x="482" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">carta::Frame::GetZSlice</text>
 </a>
 </g>
 </g>
@@ -383,8 +383,8 @@ var sectionId = 'dynsection-59';
 <g id="edge16_Node000014_Node000015" class="edge">
 <title>Node14&#45;&gt;Node15</title>
 <g id="a_edge16_Node000014_Node000015"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M552.04,-127.28C563.66,-128.42 575.85,-129.62 587.88,-130.8"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="587.64,-134.29 597.93,-131.79 588.32,-127.32 587.64,-134.29"/>
+<path fill="none" stroke="#63b8ff" d="M547.7,-126.85C560.48,-128.11 574.11,-129.45 587.53,-130.76"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="587.44,-134.27 597.74,-131.77 588.13,-127.31 587.44,-134.27"/>
 </a>
 </g>
 </g>
@@ -401,8 +401,8 @@ var sectionId = 'dynsection-59';
 <g id="edge18_Node000014_Node000016" class="edge">
 <title>Node14&#45;&gt;Node16</title>
 <g id="a_edge18_Node000014_Node000016"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M552.04,-114.08C564.75,-112.9 578.16,-111.65 591.29,-110.43"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="591.62,-113.91 601.25,-109.5 590.97,-106.94 591.62,-113.91"/>
+<path fill="none" stroke="#63b8ff" d="M547.7,-114.48C561.72,-113.18 576.74,-111.78 591.41,-110.42"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="591.85,-113.89 601.48,-109.48 591.2,-106.92 591.85,-113.89"/>
 </a>
 </g>
 </g>
@@ -454,7 +454,7 @@ var sectionId = 'dynsection-59';
 <!-- Node18 -->
 <g id="Node000018" class="node">
 <title>Node18</title>
-<g id="a_Node000018"><a xlink:href="structcarta_1_1StokesSource.html#a7cb4847ee609866b84ce3afa1624bb45" target="_top" xlink:title=" ">
+<g id="a_Node000018"><a xlink:href="structcarta_1_1StokesSource.html#a7cb4847ee609866b84ce3afa1624bb45" target="_top" xlink:title="Checks if this Stokes source represents an original image.">
 <polygon fill="white" stroke="#666666" points="1128.5,-105.5 1015.5,-105.5 1015.5,-75.5 1128.5,-75.5 1128.5,-105.5"/>
 <text text-anchor="start" x="1023.5" y="-93.5" font-family="Helvetica,sans-Serif" font-size="10.00">carta::StokesSource</text>
 <text text-anchor="middle" x="1072" y="-82.5" font-family="Helvetica,sans-Serif" font-size="10.00">::IsOriginalImage</text>

@@ -99,13 +99,14 @@ $(document).ready(function(){initNavTree('Casacore_8h.html',''); initResizable()
   <div class="headertitle"><div class="title">Casacore.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;casacore/images/Images/ImageInterface.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;carta-protobuf/enums.pb.h&gt;</code><br />
+<code>#include &lt;casacore/images/Images/ImageInterface.h&gt;</code><br />
 <code>#include &lt;casacore/images/Images/ImageOpener.h&gt;</code><br />
 <code>#include &lt;casacore/scimath/Mathematics/GaussianBeam.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Casacore.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="Casacore_8h__incl.svg" width="654" height="124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="Casacore_8h__incl.svg" width="100%" height="393"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
@@ -115,24 +116,30 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa05a1fe4e2176aee249351f3e2544441" id="r_aa05a1fe4e2176aee249351f3e2544441"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#aa05a1fe4e2176aee249351f3e2544441">CheckFolderPaths</a> (std::string &amp;top_level_string, std::string &amp;starting_string)</td></tr>
-<tr class="separator:aa05a1fe4e2176aee249351f3e2544441"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa743c537861c278f5c5620fa996f8153" id="r_aa743c537861c278f5c5620fa996f8153"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#aa743c537861c278f5c5620fa996f8153">IsSubdirectory</a> (std::string folder, std::string top_folder)</td></tr>
-<tr class="separator:aa743c537861c278f5c5620fa996f8153"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad560f4fdd266b9e1503ae3f24a60aa52" id="r_ad560f4fdd266b9e1503ae3f24a60aa52"><td class="memItemLeft" align="right" valign="top">casacore::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#ad560f4fdd266b9e1503ae3f24a60aa52">GetResolvedFilename</a> (const std::string &amp;root_dir, const std::string &amp;directory, const std::string &amp;file, std::string &amp;message)</td></tr>
+<tr class="memdesc:ad560f4fdd266b9e1503ae3f24a60aa52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves a file path based on a given root directory and relative subdirectory.  <br /></td></tr>
 <tr class="separator:ad560f4fdd266b9e1503ae3f24a60aa52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f2e1b7b1fdc56656757ae21fa22be67" id="r_a7f2e1b7b1fdc56656757ae21fa22be67"><td class="memItemLeft" align="right" valign="top">casacore::ImageOpener::ImageTypes&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#a7f2e1b7b1fdc56656757ae21fa22be67">CasacoreImageType</a> (const std::string &amp;filename)</td></tr>
+<tr class="memdesc:a7f2e1b7b1fdc56656757ae21fa22be67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the image type of a given filename using Casacore.  <br /></td></tr>
 <tr class="separator:a7f2e1b7b1fdc56656757ae21fa22be67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9fc903282263ccf975d7886e526ddac" id="r_ad9fc903282263ccf975d7886e526ddac"><td class="memItemLeft" align="right" valign="top">CARTA::FileType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#ad9fc903282263ccf975d7886e526ddac">FolderImageType</a> (const std::string &amp;folder_path, std::string &amp;message)</td></tr>
+<tr class="memdesc:ad9fc903282263ccf975d7886e526ddac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the image type of a directory. Returns unknown for all files.  <br /></td></tr>
+<tr class="separator:ad9fc903282263ccf975d7886e526ddac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2710acccf40d0db8b686e21bc111cc56" id="r_a2710acccf40d0db8b686e21bc111cc56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#a2710acccf40d0db8b686e21bc111cc56">GetSpectralCoordPreferences</a> (casacore::ImageInterface&lt; float &gt; *image, bool &amp;prefer_velocity, bool &amp;optical_velocity, bool &amp;prefer_wavelength, bool &amp;air_wavelength)</td></tr>
+<tr class="memdesc:a2710acccf40d0db8b686e21bc111cc56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the spectral coordinate preferences based on an image's native spectral type.  <br /></td></tr>
 <tr class="separator:a2710acccf40d0db8b686e21bc111cc56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1859ccacb65ced54041fd75f602c75c1" id="r_a1859ccacb65ced54041fd75f602c75c1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#a1859ccacb65ced54041fd75f602c75c1">FormatBeam</a> (const casacore::GaussianBeam &amp;gaussian_beam)</td></tr>
+<tr class="memdesc:a1859ccacb65ced54041fd75f602c75c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Formats a Gaussian beam's parameters into a human-readable string.  <br /></td></tr>
 <tr class="separator:a1859ccacb65ced54041fd75f602c75c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c9fe1e490ee8d17337e07e1f9ac6bdc" id="r_a8c9fe1e490ee8d17337e07e1f9ac6bdc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#a8c9fe1e490ee8d17337e07e1f9ac6bdc">FormatQuantity</a> (const casacore::Quantity &amp;quantity)</td></tr>
+<tr class="memdesc:a8c9fe1e490ee8d17337e07e1f9ac6bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Formats a Casacore quantity into a human-readable string.  <br /></td></tr>
 <tr class="separator:a8c9fe1e490ee8d17337e07e1f9ac6bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8733accb41db0f83703779c667ae852e" id="r_a8733accb41db0f83703779c667ae852e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#a8733accb41db0f83703779c667ae852e">NormalizeUnit</a> (casacore::String &amp;unit)</td></tr>
+<tr class="memdesc:a8733accb41db0f83703779c667ae852e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes a given unit string to conform to standard Casacore unit conventions (case-sensitive).  <br /></td></tr>
 <tr class="separator:a8733accb41db0f83703779c667ae852e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a460085220f0ce6d3fe661fba5877a796" id="r_a460085220f0ce6d3fe661fba5877a796"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#a460085220f0ce6d3fe661fba5877a796">ParseHistoryBeamHeader</a> (std::string &amp;header, std::string &amp;bmaj, std::string &amp;bmin, std::string &amp;bpa)</td></tr>
-<tr class="separator:a460085220f0ce6d3fe661fba5877a796"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1417964e00800b515ec0913adaa1957" id="r_af1417964e00800b515ec0913adaa1957"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Casacore_8h.html#af1417964e00800b515ec0913adaa1957">IsGildasUnit</a> (const casacore::String &amp;unit)</td></tr>
+<tr class="memdesc:af1417964e00800b515ec0913adaa1957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if input unit string is in the format used by the GILDAS CLASS software.  <br /></td></tr>
+<tr class="separator:af1417964e00800b515ec0913adaa1957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a7f2e1b7b1fdc56656757ae21fa22be67" name="a7f2e1b7b1fdc56656757ae21fa22be67"></a>
@@ -158,6 +165,16 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Determines the image type of a given filename using Casacore. </p>
+<p>This function utilizes <code>casacore::ImageOpener::imageType</code> to identify the type of an image file based on its name.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">filename</td><td>A string reference to the path to the image file..</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The image type as a <code>casacore::ImageOpener::ImageTypes</code> value. </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -166,23 +183,23 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aa05a1fe4e2176aee249351f3e2544441" name="aa05a1fe4e2176aee249351f3e2544441"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa05a1fe4e2176aee249351f3e2544441">&#9670;&#160;</a></span>CheckFolderPaths()</h2>
+<a id="ad9fc903282263ccf975d7886e526ddac" name="ad9fc903282263ccf975d7886e526ddac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9fc903282263ccf975d7886e526ddac">&#9670;&#160;</a></span>FolderImageType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool CheckFolderPaths </td>
+          <td class="memname">CARTA::FileType FolderImageType </td>
           <td>(</td>
-          <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>top_level_string</em>, </td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>folder_path</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>starting_string</em>&#160;</td>
+          <td class="paramname"><em>message</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -191,6 +208,28 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Determines the image type of a directory. Returns unknown for all files. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">folder_path</td><td>The folder path to check, represented as a string. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">message</td><td>Error message if an image but not a supported type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The CARTA::FileType of the directory, unknown if not an image.</dd></dl>
+<p>This function determines the image type of a directory. If not an image, returns UNKNOWN type.</p>
+<dl class="section note"><dt>Note</dt><dd>If the path is a file, does not check type and returns UNKNOWN. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="Casacore_8h_ad9fc903282263ccf975d7886e526ddac_cgraph.svg" width="346" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="Casacore_8h_ad9fc903282263ccf975d7886e526ddac_icgraph.svg" width="570" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -210,6 +249,22 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Formats a Gaussian beam's parameters into a human-readable string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gaussian_beam</td><td>The reference to the Casacore Gaussian beam object whose parameters will be formatted.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A formatted string containing the beam's major axis, minor axis, and position angle, including their respective units.</dd></dl>
+<p>This function retrieves the major axis, minor axis, and position angle (PA) of a given <code>casacore::GaussianBeam</code> and formats them into a structured string with six decimal places of precision.</p>
+<dl class="section note"><dt>Note</dt><dd>The output format is: <code>"major: &lt;value&gt; &lt;unit&gt; minor: &lt;value&gt; &lt;unit&gt; pa: &lt;value&gt; &lt;unit&gt;"</code> </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="Casacore_8h_a1859ccacb65ced54041fd75f602c75c1_icgraph.svg" width="395" height="339"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 <a id="a8c9fe1e490ee8d17337e07e1f9ac6bdc" name="a8c9fe1e490ee8d17337e07e1f9ac6bdc"></a>
@@ -227,6 +282,21 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Formats a Casacore quantity into a human-readable string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">quantity</td><td>A reference to a Casacore Quantity object that represents the quantity to be formatted.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A formatted string in the form of <code>"&lt;value&gt; &lt;unit&gt;"</code>, where <code>&lt;value&gt;</code> is displayed with six decimal places.</dd></dl>
+<p>This function converts a <code>casacore::Quantity</code> into a string representation with six decimal places of precision, including its unit. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="Casacore_8h_a8c9fe1e490ee8d17337e07e1f9ac6bdc_icgraph.svg" width="378" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -267,6 +337,24 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Resolves a file path based on a given root directory and relative subdirectory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">root_dir</td><td>A string refence to the root directory in which the file is expected to reside. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">directory</td><td>A string refence to the relative directory path within the root directory. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">file</td><td>A string refence to the name of the file to resolve. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">message</td><td>A reference to a string that will contain an error message if the resolution fails.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The resolved absolute filename as a <code>casacore::String</code> if successful, otherwise an empty string.</dd></dl>
+<p>This function constructs an absolute file path using a specified root directory, a relative subdirectory, and a file name. It checks whether the resulting file path exists and is readable. If any issue is encountered, an error message is set. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="Casacore_8h_ad560f4fdd266b9e1503ae3f24a60aa52_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -313,6 +401,21 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Determines the spectral coordinate preferences based on an image's native spectral type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">image</td><td>Pointer to a <code>casacore::ImageInterface&lt;float&gt;</code> representing the image whose spectral coordinate system will be analyzed. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">prefer_velocity</td><td>A boolean value set to <code>true</code> if velocity-based representation is preferred. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">optical_velocity</td><td>A boolean value set to <code>true</code> if optical velocity representation is preferred. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">prefer_wavelength</td><td>A boolean value set to <code>true</code> if wavelength-based representation is preferred. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">air_wavelength</td><td>A boolean value set to <code>true</code> if air wavelength representation is preferred.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>This function analyses the spectral coordinate system of the provided <code>image</code> and sets preference flags for velocity, wavelength, and their specific variations. It considers the image's native spectral type and applies special handling for <code>CartaMiriadImage</code> types.</p>
+<dl class="section note"><dt>Note</dt><dd>If the image contains a spectral axis, its native type is determined and used to update the preference flags accordingly.</dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>The function modifies the output parameters in place; ensure they are initialized properly. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -326,31 +429,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aa743c537861c278f5c5620fa996f8153" name="aa743c537861c278f5c5620fa996f8153"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa743c537861c278f5c5620fa996f8153">&#9670;&#160;</a></span>IsSubdirectory()</h2>
+<a id="af1417964e00800b515ec0913adaa1957" name="af1417964e00800b515ec0913adaa1957"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1417964e00800b515ec0913adaa1957">&#9670;&#160;</a></span>IsGildasUnit()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool IsSubdirectory </td>
+          <td class="memname">bool IsGildasUnit </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>folder</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const casacore::String &amp;&#160;</td>
+          <td class="paramname"><em>unit</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>top_folder</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Check if input unit string is in the format used by the GILDAS CLASS software. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">unit</td><td>A unit string to check.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if a GILDAS unit.</dd></dl>
+<p>This function uses regex to check if unit is in the GILDAS CLASS software format "unit (Ttype)" where the "type" describes the temperature T. It also tests for casacore Unit name changes where " " and "*" are replaced with ".". For example: "K (Ta*)" --&gt; "K.(Ta.)" in casacore. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="Casacore_8h_af1417964e00800b515ec0913adaa1957_cgraph.svg" width="282" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="Casacore_8h_af1417964e00800b515ec0913adaa1957_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -369,55 +482,32 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Normalizes a given unit string to conform to standard Casacore unit conventions (case-sensitive). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">unit</td><td>A string reference to the unit string to normalise. It is modified in place with the corrected and validated unit name if possible.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>This function converts various unit representations into their standardised Casacore equivalents. It replaces non-standard units with correct forms, fixes case inconsistencies, and removes invalid characters. Additionally, it attempts to map the unit to a valid Casacore unit using <code>UnitMap::fromFITS</code> and <code>UnitVal::check</code>.</p>
+<dl class="section note"><dt>Note</dt><dd>If the unit contains a recognized prefix, the function attempts to normalise with and without the prefix.</dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>If the unit cannot be resolved to a known Casacore unit, it remains unchanged.</dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">casacore::AipsError</td><td>Caught internally when Casacore unit conversions fail. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="Casacore_8h_a8733accb41db0f83703779c667ae852e_cgraph.svg" width="446" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="Casacore_8h_a8733accb41db0f83703779c667ae852e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a460085220f0ce6d3fe661fba5877a796" name="a460085220f0ce6d3fe661fba5877a796"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a460085220f0ce6d3fe661fba5877a796">&#9670;&#160;</a></span>ParseHistoryBeamHeader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ParseHistoryBeamHeader </td>
-          <td>(</td>
-          <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>header</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>bmaj</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>bmin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>bpa</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="Casacore_8h_a460085220f0ce6d3fe661fba5877a796_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

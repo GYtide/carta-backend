@@ -4,7 +4,7 @@ var searchData=
   ['datasettostring_1',['DataSetToString',['../classcarta_1_1Hdf5Loader.html#afa5d819caee85e90912fece54d1896b4',1,'carta::Hdf5Loader']]],
   ['datatype_2',['dataType',['../classcarta_1_1CartaFitsImage.html#a4633816d0ab77523c236fb1afae746e8',1,'carta::CartaFitsImage']]],
   ['decode_3',['Decode',['../structcarta_1_1Tile.html#a3bb9a6a862540de876a281145ab80e92',1,'carta::Tile']]],
-  ['decodemessage_4',['DecodeMessage',['../classMessage.html#a026fbed610e5f1f9b45792892ffa9cac',1,'Message']]],
+  ['decodemessage_4',['DecodeMessage',['../classMessage.html#a2d981a1cec15972f98b2fe2ec5716ae6',1,'Message']]],
   ['decompress_5',['Decompress',['../namespacecarta.html#a749005ecb48d6c06c1214277a719ae7f',1,'carta']]],
   ['decompressedfileexists_6',['DecompressedFileExists',['../classcarta_1_1CompressedFits.html#a7d1a86de8246054b56ff34759f89c974',1,'carta::CompressedFits']]],
   ['decompressgzfile_7',['DecompressGzFile',['../classcarta_1_1CompressedFits.html#a9c49b7aed1688648aabc4f3671b49f39',1,'carta::CompressedFits']]],
@@ -28,6 +28,7 @@ var searchData=
   ['dorebin_25',['DoRebin',['../classcarta_1_1PvPreviewCube.html#ad1761651bbb2a0da85b2b0bfcef03a3a',1,'carta::PvPreviewCube']]],
   ['doublepoint_26',['DoublePoint',['../classMessage.html#a2e8cdef60c335b1a50208053aa4b7f22',1,'Message']]],
   ['dovectorfieldcalculation_27',['DoVectorFieldCalculation',['../classcarta_1_1Frame.html#aa0556decdd99bffc1dd869599f4db918',1,'carta::Frame']]],
-  ['ds9importexport_28',['ds9importexport',['../classcarta_1_1Ds9ImportExport.html#aaf9d85eccbc3df844536b5105992cdeb',1,'carta::Ds9ImportExport::Ds9ImportExport(std::shared_ptr&lt; casacore::CoordinateSystem &gt; image_coord_sys, const casacore::IPosition &amp;image_shape, int file_id, const std::string &amp;file, bool file_is_filename)'],['../classcarta_1_1Ds9ImportExport.html#af3abb83d0dc8a766f1b964ba3ef68f74',1,'carta::Ds9ImportExport::Ds9ImportExport(std::shared_ptr&lt; casacore::CoordinateSystem &gt; image_coord_sys, const casacore::IPosition &amp;image_shape, bool pixel_coord)']]],
-  ['ds9tocasacoreunit_29',['Ds9ToCasacoreUnit',['../classcarta_1_1Ds9ImportExport.html#a59d1155bdf996a30a72faed8fc5ef384',1,'carta::Ds9ImportExport']]]
+  ['ds9exporter_28',['Ds9Exporter',['../classcarta_1_1Ds9Exporter.html#a186656ee7f6ee81303552d703ceca867',1,'carta::Ds9Exporter']]],
+  ['ds9importer_29',['Ds9Importer',['../classcarta_1_1Ds9Importer.html#ab6ee9e9b9ecb91aea03f13c7636cc6a4',1,'carta::Ds9Importer']]],
+  ['ds9tocasacoreunit_30',['Ds9ToCasacoreUnit',['../classcarta_1_1Ds9Importer.html#a5b5f9be7632117e1b9c45c74b0da9c3b',1,'carta::Ds9Importer']]]
 ];
